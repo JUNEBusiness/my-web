@@ -1,0 +1,233 @@
+#intro {
+    color: white;
+    margin-bottom: 0px;
+}
+
+#details {
+    color: black;
+    font-family: 'Merriweather', serif;
+}
+
+a:hover {
+    background-color: aquamarine;
+    box-shadow: 0 0 1rem rgb(0 0 0 / 60%)
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 25px;
+    background: #774360;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #b879b4;
+    text-decoration: none;
+  }
+
+body {
+    margin: 0px;
+    background-color: black;
+    text-align: center;
+}
+
+div {
+    background-color: rgb(171, 173, 243);
+}
+
+
+h1 {
+    color: white;
+    margin: 10px 0px 0px;
+    line-height: 2;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    color: white;
+    line-height: 2;
+    margin: 0px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h4 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    line-height: 2;
+    margin: 0px;
+}
+
+hr {
+    border-color: goldenrod;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    width: 5%;
+}
+
+header {
+    background-color: #1B2430;
+    height: 40px;
+    position: relative;
+    padding: 10px;
+}
+
+footer {
+    background-color: #1B2430;
+    height: 100px;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+.home {
+    position: absolute;
+    right: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(32, 30, 30);
+}
+
+/* image classes */
+
+.jupiter {
+    position: absolute;
+    right: 0px;
+}
+
+.mercury {
+    position: absolute;
+    left: 0px;
+    bottom: 60px;
+}
+
+.moonshine {
+    position: absolute;
+    left: 0px;
+}
+
+.same {
+    border-radius: 100%;
+}
+
+.sun {
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+
+.moon {
+    position: relative;
+    right: 100px;
+    top: 150PX;
+
+}
+
+.mars {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+}
+
+/* images in the skills container */
+
+.bee {
+    float: right;
+    margin-left: 30px;
+    width: 20%;
+}
+
+.gold {
+    float: left;
+    margin-right: 30px;
+    width: 20%;
+}
+
+.lizard {
+    float: left;
+    margin-right: 30px;
+    width: 20%;
+}
+
+/*************div class styling**************/
+
+.contact {
+    text-align: left;
+    background-color: rgb(78, 173, 236);
+    color: black;
+}
+
+.contact-container {
+    background-color: rgb(78, 173, 236);
+    padding: 50px 20px 0px;
+}
+
+div {
+    border-radius: 10%;
+}
+
+.bees {
+    background-color: #A084CF;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.golds {
+    background-color: #A084CF;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.lizards {
+    background-color: #A084CF;
+    text-align: left;
+}
+
+.top-container {
+    background-color: black;
+    height: 700px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.middle-container {
+    background-color: #DFBB9D;
+    color: white;
+    height: 400px;
+    width: 500px;
+    margin: 90px auto 50px;
+    padding: 50px 50px 20px;
+}
+
+.bottom-container {
+    background-color: #A084CF;
+    height: 700px;
+    width: 50%;
+    margin: 50px auto 50px;
+    padding: 50px 20px 10px;
+}
+
+.rear-container {
+    background-color: rgb(78, 173, 236);
+    height: 200px;
+    width: 500px;
+    margin: 50px auto 0px;
+    padding: 50px 20px 0px;
+    border-radius: 5%;
+}
